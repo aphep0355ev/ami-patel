@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thoughts — Ami Patel</title>
+<meta name="description" content="Notes and running thoughts from Ami Patel on dark matter theory, numerics, and research life.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark"><span class="dot"></span>Ami Patel</a>
+    <button class="nav-toggle" aria-expanded="false">menu</button>
+    <div class="nav-links">
+      <a href="index.html">about</a>
+      <a href="research.html">research</a>
+      <a href="thoughts.html" aria-current="page">thoughts</a>
+      <a href="collaboration.html">collaborate</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom: 10px;">
+  <div class="wrap" style="padding-bottom: 40px;">
+    <div class="eyebrow">field notes</div>
+    <h1 style="font-size: clamp(2.2rem, 6vw, 4rem);">Thoughts</h1>
+    <p class="subhead">Shorter, less formal than a paper. Mostly things I think about while
+      staring at a Schrödinger equation that refuses to converge.</p>
+  </div>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+
+      <article class="post">
+        <div class="p-date mono">jun 2026</div>
+        <div>
+          <h3>The ambiguity nobody warns you about</h3>
+          <div class="p-body">
+            <p>Singular potentials have a way of humbling you. You write down what looks like a
+              perfectly reasonable regularization scheme, get a perfectly reasonable-looking
+              answer, and then realize a colleague's equally reasonable scheme gives a different
+              number. Nobody is wrong, exactly — the ambiguity is real, and it's been sitting
+              quietly in non-perturbative dark matter calculations for longer than I've been
+              doing this.</p>
+            <p>Most of this year has gone into a formalism that removes that ambiguity outright,
+              rather than just picking a convention and hoping it generalizes. It's slower than I
+              expected, and more satisfying than I expected, in roughly equal measure.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="p-date mono">apr 2026</div>
+        <div>
+          <h3>What a liquid argon detector teaches a theorist</h3>
+          <div class="p-body">
+            <p>I spent a stretch of my MSc years analysing raw detector data at ASTROCENT,
+              working with C++ and ROOT instead of Mathematica. It recalibrated something in how
+              I think about theory. A resonance on paper is a clean bump in a cross-section. A
+              resonance in real data is buried under noise, cuts, and a dozen systematic effects
+              that don't care how elegant your Hamiltonian is.</p>
+            <p>I don't do experimental work day to day anymore, but I try to keep that gap in
+              mind whenever a calculation feels a little too tidy.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="p-date mono">feb 2026</div>
+        <div>
+          <h3>Sommerfeld enhancement, for the version of me who didn't get it yet</h3>
+          <div class="p-body">
+            <p>The short version: when dark matter particles are slow and feel a long-range
+              force between them, their wavefunctions distort before they ever get close enough
+              to annihilate. That distortion can boost the annihilation rate by orders of
+              magnitude — which matters enormously for anything trying to infer particle physics
+              from cosmological or astrophysical signals.</p>
+            <p>The longer version is most of my MSc thesis. I still think the short version is
+              the one worth remembering first.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="p-date mono">jan 2026</div>
+        <div>
+          <h3>Starting a project with no thesis deadline attached</h3>
+          <div class="p-body">
+            <p>Every project I'd worked on before had a defense date somewhere on the horizon.
+              This is the first one that doesn't, and it changes the texture of the work in a way
+              I didn't fully anticipate — fewer artificial milestones, more of my own judgment
+              about when a result is actually solid enough to write down.</p>
+            <p>New collaboration, new country's time zone to coordinate across, same stubborn
+              coupled equations. So far, so good.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Ami Patel — built with numerical curiosity.</span>
+    <span><a href="collaboration.html">get in touch →</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

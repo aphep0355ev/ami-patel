@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ami Patel — Theoretical Physics</title>
+<meta name="description" content="Ami Patel, theoretical physicist working on dark matter phenomenology at the University of Warsaw.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark"><span class="dot"></span>Ami Patel</a>
+    <button class="nav-toggle" aria-expanded="false">menu</button>
+    <div class="nav-links">
+      <a href="index.html" aria-current="page">about</a>
+      <a href="research.html">research</a>
+      <a href="thoughts.html">thoughts</a>
+      <a href="collaboration.html">collaborate</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">dark matter phenomenology</div>
+    <h1>Ami Patel<br><em>scatters things,</em><br>on purpose.</h1>
+    <p class="subhead">Theoretical physicist at the University of Warsaw, working on how quantum
+      scattering processes leave fingerprints on the universe — from phase shifts to Sommerfeld
+      enhancement to the resonances hiding in coupled-channel dark matter models.</p>
+    <div class="hero-actions">
+      <a href="research.html" class="btn btn-solid">see current research</a>
+      <a href="collaboration.html" class="btn">let's collaborate</a>
+    </div>
+
+    <!-- signature element: incoming wave hits a potential, splits into a phase-shifted, enhanced outgoing signal -->
+    <svg class="wave-hero" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Illustration of a wave scattering off a potential barrier, emerging phase-shifted and enhanced">
+      <line class="wave-barrier" x1="600" y1="30" x2="600" y2="270"></line>
+      <text class="wave-label mono" x="618" y="52">Δφ — phase shift</text>
+      <text class="wave-label mono" x="30" y="52">incident ψ</text>
+      <text class="wave-label mono" x="960" y="52">enhanced, transmitted</text>
+      <path class="wave-path-in" d="M0,150 C15,105 45,105 60,150 C75,195 105,195 120,150 C135,105 165,105 180,150 C195,195 225,195 240,150 C255,105 285,105 300,150 C315,195 345,195 360,150 C375,105 405,105 420,150 C435,195 465,195 480,150 C495,105 525,105 540,150 C555,195 585,195 600,150"></path>
+      <path class="wave-path-out" d="M600,150 C612.5,95 637.5,95 650,150 C662.5,205 687.5,205 700,150 C712.5,95 737.5,95 750,150 C762.5,205 787.5,205 800,150 C812.5,95 837.5,95 850,150 C862.5,205 887.5,205 900,150 C912.5,95 937.5,95 950,150 C962.5,205 987.5,205 1000,150 C1012.5,95 1037.5,95 1050,150 C1062.5,205 1087.5,205 1100,150 C1112.5,95 1137.5,95 1150,150 C1162.5,205 1187.5,205 1200,150"></path>
+      <circle class="wave-pulse" cx="600" cy="150" r="4"></circle>
+    </svg>
+  </div>
+</header>
+
+<main>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>About</h2>
+        <span class="idx mono">profile</span>
+      </div>
+      <div class="grid-2">
+        <div>
+          <p class="lede">I work on non-perturbative dark matter phenomenology — how quantum
+            scattering translates into observable cosmological and astrophysical signatures.</p>
+          <p>My research builds frameworks connecting scattering amplitudes, Sommerfeld
+            enhancement, and coupled-channel dynamics, with a focus on threshold effects and
+            resonance structures. I'm drawn to problems where taking quantum mechanics seriously —
+            rather than approximating it away — changes what we predict.</p>
+          <p>Currently based at the University of Warsaw, working with Dr. Ayuki Kamada, with an
+            ongoing collaboration with Kavli IPMU in Japan.</p>
+        </div>
+        <div class="card">
+          <div class="card-eyebrow">quick facts</div>
+          <h3>Warsaw → the rest of the world</h3>
+          <p>MSc Theoretical Physics, University of Warsaw (2019–2023) · BSc Physics, Uka Tarsadiya
+            University (2015–2018). Published in JHEP. Trained on liquid argon detector data at
+            ASTROCENT. Currently developing numerical methods for singular potentials in
+            non-perturbative dark matter calculations.</p>
+          <div class="card-foot">
+            <span class="tag">Mathematica</span>
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">ROOT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0;">
+    <div class="wrap">
+      <div class="block-head">
+        <h2>Flagship result</h2>
+        <span class="idx mono">publication</span>
+      </div>
+      <div class="pub">
+        <div class="card-eyebrow">JHEP 11 (2023) 105</div>
+        <h3>Quantum Theory of Dark Matter Scattering</h3>
+        <div class="byline">A. Kamada, T. Kuwahara, A. Patel</div>
+        <p>Establishes a direct relation between dark matter scattering and annihilation rates,
+          working through phase shifts and Sommerfeld enhancement in quantum scattering theory —
+          the backbone that the rest of my current research builds on.</p>
+        <div class="hero-actions" style="margin-top:6px;">
+          <a href="research.html" class="btn btn-pop">read about the follow-up work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Ami Patel — built with numerical curiosity.</span>
+    <span><a href="collaboration.html">get in touch →</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
